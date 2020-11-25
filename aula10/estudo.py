@@ -1,8 +1,7 @@
 numero = int(input('Entre com um número: '))
 
 cont = 0
-i = 1
-while (i <= numero):
+for i in range(1, numero + 1):
     if not (numero % i):
         cont += 1
     i += 1
